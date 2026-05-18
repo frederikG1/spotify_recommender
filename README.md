@@ -74,7 +74,7 @@ The 2D PCA projection shows clear cluster separation, and inspecting cluster pro
 ![Elbow plot](screenshots/7_elbow_method.png)
 
 ### Clusters visualised with PCA
-![PCA clusters](screenshots/9_cluster.png)
+![PCA clusters](screenshots/9._cluster.png)
 
 ### Recommendation output
 ![Recommendations](screenshots/10_recommend.png)
