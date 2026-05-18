@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ 
+# Notebooks
+.ipynb_checkpoints/
+ 
+# OS
+.DS_Store
+Thumbs.db
+ 
+# IDE
+.vscode/
+.idea/
+ 
+# Large raw dataset (use kagglehub instead)
+data.csv
+ 
+# Old versions of files (we use the slimmer ones)
+songs_with_clusters.csv
+X_scaled.npy
