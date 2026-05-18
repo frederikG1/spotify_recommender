@@ -65,19 +65,19 @@ The 2D PCA projection shows clear cluster separation, and inspecting cluster pro
 ## 🖼️ Screenshots
 
 ### Feature distributions
-![Feature distributions](5.1_audio_dist.png)
+![Feature distributions](screenshots/5.1_audio_dist.png)
 
 ### Correlation heatmap
-![Correlation heatmap](5.2_heatmap.png)
+![Correlation heatmap](screenshots/5.2_heatmap.png)
 
 ### Elbow method
-![Elbow plot](7_elbow_method.png)
+![Elbow plot](screenshots/7_elbow_method.png)
 
 ### Clusters visualised with PCA
-![PCA clusters](9._cluster.png)
+![PCA clusters](screenshots/9_cluster.png)
 
 ### Recommendation output
-![Recommendations](10_recommend.png)
+![Recommendations](screenshots/10_recommend.png)
 
 ---
 
