@@ -102,7 +102,7 @@ if song_input:
         st.caption(f"Cluster {song['cluster']} · Popularity {song['popularity']} · Year {song['year']}")
 
         st.markdown("### Recommended songs")
-        st.dataframe(recommendations, width='stretch')
+        st.dataframe(recommendations)
 
 # ============================================================
 # Sidebar - info about the project
