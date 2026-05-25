@@ -1,26 +1,16 @@
-# 🎵 Spotify Music Recommender
+# Spotify Recommender
 
 A content-based music recommendation system built on 160,000 Spotify songs, using K-Means clustering and cosine similarity.
 
-**MAL Exam Project**
-
 ---
 
-## 🚀 Live Demo
+## Try the app
 
 Try the deployed app here: **[spotify-recommender on Hugging Face](https://huggingface.co/spaces/fredeg/spotify-recommender)**
 
 ---
 
-## 📌 Problem Statement
-
-How do you find songs that *sound like* a song you already love?
-
-Music streaming services solve this with recommendation engines. This project builds a simplified version: given a song title, return 10 songs with similar audio characteristics (energy, danceability, valence, tempo, etc.), based purely on the audio features of the tracks — no listening history required.
-
----
-
-## 📂 Dataset
+## Dataset
 
 [160k Spotify songs from 1921 to 2020 (Kaggle)](https://www.kaggle.com/datasets/fcpercival/160k-spotify-songs-sorted)
 
@@ -38,7 +28,7 @@ The dataset contains ~170,000 songs with metadata (name, artists, year, populari
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 1. **Data cleaning** — drop duplicates and non-music entries (sleep sounds, etc.)
 2. **Feature scaling** — `StandardScaler` so K-Means treats all features equally
@@ -50,7 +40,7 @@ The dataset contains ~170,000 songs with metadata (name, artists, year, populari
 
 ---
 
-## 📊 Model Evaluation
+## Model Evaluation
 
 | Metric | Value |
 |---|---|
@@ -81,7 +71,7 @@ The 2D PCA projection shows clear cluster separation, and inspecting cluster pro
 
 ---
 
-## 🧰 Tech Stack
+## Technologies used
 
 - **Python 3.12**
 - **scikit-learn** — K-Means, StandardScaler, PCA, cosine similarity
@@ -92,7 +82,7 @@ The 2D PCA projection shows clear cluster separation, and inspecting cluster pro
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 spotify_recommender/
@@ -109,7 +99,7 @@ spotify_recommender/
 
 ---
 
-## 🏃 Running Locally
+## Run it locally
 
 1. Clone this repo:
    ```bash
