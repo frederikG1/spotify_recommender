@@ -4,6 +4,12 @@ A **Deep Neural Network** that predicts whether a song will be popular based on 
 
 ---
 
+## Check it out!
+
+Kører på https://huggingface.co/spaces/fredeg/spotify-recommender
+
+---
+
 ## Dataset
 
 [160k Spotify songs from 1921 to 2020 (Kaggle)](https://www.kaggle.com/datasets/fcpercival/160k-spotify-songs-sorted)
