@@ -6,7 +6,7 @@ A **Deep Neural Network** that predicts whether a song will be popular based on 
 
 ## Check it out!
 
-Kører på https://huggingface.co/spaces/fredeg/spotify-recommender
+Runs on https://huggingface.co/spaces/fredeg/spotify-recommender
 
 ---
 
