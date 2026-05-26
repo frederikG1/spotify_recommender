@@ -16,42 +16,6 @@ Each song has 9 audio features extracted by Spotify's API:
 After cleaning duplicates and non-music entries, ~140,000 songs remain.
 
 ---
-
-## Model Architecture
-
-A Deep Neural Network built in Keras:
-
-| Layer | Type | Neurons | Activation |
-|---|---|---|---|
-| Input | — | 9 | — |
-| Hidden 1 | Dense | 64 | ReLU |
-| Dropout | Dropout (0.3) | — | — |
-| Hidden 2 | Dense | 32 | ReLU |
-| Dropout | Dropout (0.3) | — | — |
-| Hidden 3 | Dense | 16 | ReLU |
-| Output | Dense | 1 | Sigmoid |
-
-- **Loss:** Binary cross-entropy
-- **Optimizer:** Adam
-- **Regularisation:** Dropout to prevent overfitting
-- **Early stopping:** Monitors validation loss to avoid overtraining
-
----
-
-## Model Evaluation
-
-| Metric | Value |
-|---|---|
-| Test accuracy | ~75-80% |
-| ROC AUC | ~0.80 |
-| Classes | Balanced via stratified split |
-
-*(Update with your actual numbers after running the notebook.)*
-
-Evaluation includes accuracy, precision, recall, F1-score, confusion matrix, and ROC curve.
-
----
-
 ## Screenshots
 
 ### Epoch output
@@ -69,9 +33,7 @@ Evaluation includes accuracy, precision, recall, F1-score, confusion matrix, and
 ### ROC curve
 ![ROC curve](screenshots/roc_curve.png)
 
-
 ---
-
 
 ## Project Structure
 
